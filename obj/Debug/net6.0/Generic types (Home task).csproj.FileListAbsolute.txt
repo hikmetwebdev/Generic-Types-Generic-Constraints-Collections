@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\Classes\Generic types (Home task)\bin\Debug\net6.0\Generic types (Home task).exe
+C:\Users\User\source\repos\Classes\Generic types (Home task)\bin\Debug\net6.0\Generic types (Home task).deps.json
+C:\Users\User\source\repos\Classes\Generic types (Home task)\bin\Debug\net6.0\Generic types (Home task).runtimeconfig.json
+C:\Users\User\source\repos\Classes\Generic types (Home task)\bin\Debug\net6.0\Generic types (Home task).dll
+C:\Users\User\source\repos\Classes\Generic types (Home task)\bin\Debug\net6.0\Generic types (Home task).pdb
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).AssemblyInfo.cs
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).dll
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\refint\Generic types (Home task).dll
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).pdb
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\Generic types (Home task).genruntimeconfig.cache
+C:\Users\User\source\repos\Classes\Generic types (Home task)\obj\Debug\net6.0\ref\Generic types (Home task).dll
