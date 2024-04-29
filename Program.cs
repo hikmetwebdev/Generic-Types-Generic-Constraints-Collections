@@ -1,6 +1,5 @@
 ﻿using Generic_types__Home_task_.Modes;
 
-
 Console.WriteLine("Please select the operation you want to perform according to the appropriate number: \n ");
 Console.WriteLine("Add employee  (1)");
 Console.WriteLine("Finf employee by ID  (2)");
@@ -26,13 +25,14 @@ do
         case 3:
             GetById();
             break;
-        case -1:
+        case 0:
             Console.WriteLine("Exit");
             break;
         default:
             Console.WriteLine("Invalid operation.");
             break;
     }
+
 
     Console.WriteLine("Do you want to continue? (y/n)");
     continueInput = Console.ReadLine().ToLower();
@@ -41,19 +41,26 @@ while (continueInput == "y");
 
 
 
-//1
 
 void Add()
 {
 headName:
     Console.WriteLine("Add employee name :");
     string name = Console.ReadLine();
-    if (name == null || name.Length == 0) goto headName;
+    if (string.IsNullOrWhiteSpace(name))
+    {
+        goto headName;
+    }
+    else Console.WriteLine("Name input cannot be empty !");
 
 headSurname:
     Console.WriteLine("Add employee surname :");
     string surname = Console.ReadLine();
-    if (surname == null || surname.Length == 0) goto headSurname;
+    if (string.IsNullOrWhiteSpace(surname))
+    {
+        goto headSurname;
+    }
+    else Console.WriteLine("Surname input cannot be empty !");
 
 headAge:
     Console.WriteLine("Add employee age :");
@@ -93,8 +100,10 @@ void GetAll()
     Console.WriteLine("Information employee : \n");
     foreach (Employee emp in allEmployees)
     {
-        Console.WriteLine($"Employee Id: {emp.Id}, \n Name: {emp.Name} ," +
+        Console.WriteLine($"Employee Id: {emp.Id}, " +
+            $"\n Name: {emp.Name} ," +
             $"\n Surname: {emp.SurName}, " +
+            $"\n Age : {emp.Age}" +
             $"\n Salary : {emp.Salary}");
     }
 }
